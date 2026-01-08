@@ -2,7 +2,13 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
-import { dataportfolio, meta, youtubeChannel } from "../../content_option";
+import {
+  dataportfolio,
+  meta,
+  youtubeChannel,
+  featuredpapers,
+  featuredreports
+} from "../../content_option";
 import { FaYoutube } from 'react-icons/fa';
 
 const YouTubeEmbed = ({ videoId, description }) => (
@@ -89,6 +95,63 @@ export const Portfolio = () => {
                 videoId={data.videoId}
                 description={data.description}
               />
+            </Col>
+          ))}
+        </Row>
+
+        <Row className="mb-5 mt-5 pt-md-3">
+          <Col lg="12">
+            <h1 className="display-4 mb-4">Featured Papers</h1>
+            <hr className="t_border my-4 ml-0 text-left" />
+          </Col>
+        </Row>
+
+        <Row>
+          <Col lg="12">
+            <ul className="papers_list">
+              {featuredpapers.map((paper, i) => (
+                <li key={i} className="paper_item">
+                  <div className="paper_title">
+                    <a href={paper.pubmedUrl} target="_blank" rel="noopener noreferrer">
+                      {paper.title}
+                    </a>
+                  </div>
+                  <div className="paper_meta">
+                    {paper.journal} · {paper.year}
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </Col>
+        </Row>
+
+        <Row className="mb-5 mt-5 pt-md-3">
+          <Col lg="12">
+            <h1 className="display-4 mb-4">Featured Reports</h1>
+            <hr className="t_border my-4 ml-0 text-left" />
+          </Col>
+        </Row>
+
+        <Row className="report-grid">
+          {featuredreports.map((report, i) => (
+            <Col key={i} lg="6" className="mb-4">
+              <div className="report-card">
+                <a
+                  className="report-thumb"
+                  href={report.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={report.thumbnail} alt={report.title} />
+                </a>
+                <div className="report-body">
+                  <h3>{report.title}</h3>
+                  <p>{report.description}</p>
+                  <a href={report.link} target="_blank" rel="noopener noreferrer">
+                    Open report
+                  </a>
+                </div>
+              </div>
             </Col>
           ))}
         </Row>

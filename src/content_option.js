@@ -15,7 +15,7 @@ const introdata = {
         third: "I Create Tech Contents",
     },
     description: "Data Scientist | Statistical programmer | R | Python | SQL | Machine Learning | Deep Learning | Computer Vision | Forecasting | Time Series Analysis | Data Visualization | Big Data | Cloud Computing | AI Enthusiast",
-    your_img_url: require("./assets/images/mydesk.jpg"),
+    your_img_url: require("./assets/images/mydesk.png"),
 };
 
 const dataabout = {
@@ -137,6 +137,30 @@ const dataportfolio = [
     }
 ];
 
+const featuredpapers = [
+    {
+        title: "Paper title goes here",
+        journal: "Journal name",
+        year: "2023",
+        pubmedUrl: "https://pubmed.ncbi.nlm.nih.gov/00000000/"
+    },
+    {
+        title: "Second paper title goes here",
+        journal: "Journal name",
+        year: "2022",
+        pubmedUrl: "https://pubmed.ncbi.nlm.nih.gov/00000000/"
+    }
+];
+
+const featuredreports = [
+    {
+        title: "Power BI Report Title",
+        description: "Short summary of the report and what it shows.",
+        thumbnail: require("./assets/images/report-thumb.png"),
+        link: "https://app.powerbi.com/groups/8395d436-17c4-4f3b-9afb-840010cd48cd/reports/caa06bf3-6132-47dd-8cc3-23d6f489b38e/b361b66f3830322110ef?experience=power-bi"
+    }
+];
+
 const youtubeChannel = {
     url: "http://www.youtube.com/",
     description: "Subscribe to my YouTube channel for in-depth tutorials on Spring, Java, and enterprise software development."
@@ -152,8 +176,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
+    facebook: "https://facebook.com/",
     github: "https://github.com/MichailBelias/",
-    linkedin: "https://linkedin.com/in/techwithm"
+    linkedin: "https://linkedin.com/in/michail-belias/",
 };
 
 export {
@@ -168,4 +193,6 @@ export {
     socialprofils,
     logotext,
     youtubeChannel,
+    featuredpapers,
+    featuredreports,
 };

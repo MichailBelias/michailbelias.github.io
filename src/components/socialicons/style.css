@@ -14,8 +14,8 @@
 }
 
 .stick_follow_icon svg {
-    width: 1.3em;
-    height: 1.3em;
+    width: 3em;
+    height: 3em;
     fill: var(--text-color)
 }
 

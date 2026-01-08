@@ -26,10 +26,16 @@ export default function App() {
         <AnimatedCursor
           innerSize={15}
           outerSize={15}
-          color="255, 255 ,255"
+          color="0, 255, 220"
           outerAlpha={0.4}
           innerScale={0.7}
           outerScale={5}
+          innerStyle={{
+            boxShadow: "0 0 10px rgba(0, 255, 220, 0.8), 0 0 20px rgba(0, 255, 220, 0.5)"
+          }}
+          outerStyle={{
+            boxShadow: "0 0 25px rgba(0, 255, 220, 0.35), 0 0 50px rgba(0, 255, 220, 0.2)"
+          }}
         />
       </div>
       <ScrollToTop>
