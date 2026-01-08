@@ -17,15 +17,16 @@ const Headermain = () => {
     <>
       <header className="fixed-top site__header">
         <div className="d-flex align-items-center justify-content-between">
-          <Link  className="navbar-brand nav_ac" to="/">
-            {logotext}
-          </Link>
-          <div className="d-flex align-items-center">
-          <Themetoggle />
-          <button className="menu__button  nav_ac" onClick={handleToggle}>
-            {!isActive ? <VscClose /> : <VscGrabber />}
-          </button>
-          
+          <div className="header__left d-flex flex-column align-items-start">
+            <div className="header__controls d-flex align-items-center">
+              <Themetoggle />
+              <button className="menu__button nav_ac" onClick={handleToggle}>
+                {!isActive ? <VscClose /> : <VscGrabber />}
+              </button>
+            </div>
+            <Link className="navbar-brand nav_ac" to="/">
+              {logotext}
+            </Link>
           </div>
         </div>
 

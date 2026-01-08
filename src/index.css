@@ -18,6 +18,26 @@
     --overlay-color: rgb(255 255 255 / 70%);
 }
 
+[data-theme="sunset"] {
+    --bg-color: #2b0d0a;
+    --primary-color: #3a140c;
+    --secondary-color: #f7e7d3;
+    --text-color: #f7e7d3;
+    --text-color-2: #f2d2b1;
+    --text-color-3: rgb(255, 122, 89);
+    --overlay-color: rgb(43 13 10 / 70%);
+}
+
+[data-theme="forest"] {
+    --bg-color: #0b1a12;
+    --primary-color: #0e2117;
+    --secondary-color: #e7f0e5;
+    --text-color: #e7f0e5;
+    --text-color-2: #c7dacb;
+    --text-color-3: rgb(111, 207, 151);
+    --overlay-color: rgb(11 26 18 / 70%);
+}
+
 html,
 body {
     height: 100%;

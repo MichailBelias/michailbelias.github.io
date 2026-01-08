@@ -1,6 +1,6 @@
-const logotext = "MONIR";
+const logotext = "Belias";
 const meta = {
-    title: "Michail Belias | Senior Software Engineer | Java & Spring Expert",
+    title: "Michail Belias | Statistical Programmer & Data Scientist",
     description: "Senior Software Engineer with 5+ years of experience in Java, Spring Boot, and enterprise solutions. Specialist in scalable architecture, database design, and cloud-native applications. Currently at Red Dot Digital Ltd in Dhaka, Bangladesh.",
     keywords: "Java Developer, Spring Boot, Software Engineer, Enterprise Solutions, Backend Development, Cloud Native, System Architecture, Dhaka, Bangladesh",
     author: "M. Belias",
@@ -8,58 +8,59 @@ const meta = {
 };
 
 const introdata = {
-    title: "I'm Md. Moniruzzaman",
+    title: "I'm Michail Belias",
     animated: {
         first: "I build enterprise solutions",
         second: "I develop scalable systems",
         third: "I Create Tech Contents",
     },
-    description: "Senior Software Engineer with 5+ years of experience specializing in Java/Spring ecosystem",
+    description: "Data Scientist | Statistical programmer | R | Python | SQL | Machine Learning | Deep Learning | Computer Vision | Forecasting | Time Series Analysis | Data Visualization | Big Data | Cloud Computing | AI Enthusiast",
     your_img_url: require("./assets/images/mydesk.jpg"),
 };
 
 const dataabout = {
     title: "A bit about myself",
-    aboutme: "I'm a Senior Software Engineer with extensive experience in designing and implementing enterprise-scale applications. My expertise lies in Java/Spring ecosystem, distributed systems, and cloud-native technologies. I have successfully led multiple critical projects for major telecom operators and government institutions in Bangladesh. With a strong foundation in computer science and a research background in blockchain technology, I combine theoretical knowledge with practical engineering solutions to build robust and scalable systems.",
+    aboutme: "I am a Data Scientist with over 5 years of experience in statistical programming and data analysis. I specialize in R and Python, and have a strong background in machine learning, deep learning, and natural language processing. I have worked on various projects involving time series analysis, computer vision, and big data. I am passionate about leveraging data to drive insights and make informed decisions. In addition to my technical skills, I am also an avid content creator, sharing my knowledge through blogs and tutorials.",
 };
 
 const worktimeline = [{
-        jobtitle: "Senior Software Engineer",
-        where: "Red Dot Digital Ltd.",
-        date: "2023-Present",
+        jobtitle: "PhD Candidate",
+        where: "Radboud University Medical Center",
+        date: "2016-2021",
     },
     {
-        jobtitle: "Senior Software Engineer",
-        where: "Reve Systems",
-        date: "2022-2023",
+        jobtitle: "MSc in Biostatistics and Health Data Science",
+        where: "Natioanal and Kapodistrian University of Athens",
+        date: "2013-2015",
     },
     {
-        jobtitle: "Software Engineer",
-        where: "Commlink Infotech Ltd.",
-        date: "2021-2022",
+        jobtitle: "Hellenic Telecommunications Organization S.A. (OTE)",
+        where: "Sales Analyst",
+        date: "2011-2013",
     },
+
     {
-        jobtitle: "Software Engineer",
-        where: "G Technologies",
-        date: "2019-2021",
+        jobtitle: "BSc in Mathematics",
+        where: "National and Kapodistrian University of Athens",
+        date: "2002-2010",
     }
 ];
 
 const skills = [{
-        name: "Java & Spring",
+        name: "R programming",
         value: 95,
     },
     {
-        name: "Backend Architecture",
+        name: "SQL",
+        value: 95,
+    },
+    {
+        name: "Python Programming",
+        value: 75,
+    },
+    {
+        name: "Statistical Analysis",
         value: 90,
-    },
-    {
-        name: "Database Design",
-        value: 85,
-    },
-    {
-        name: "Cloud Native",
-        value: 80,
     },
     {
         name: "DevOps",
@@ -68,17 +69,21 @@ const skills = [{
 ];
 
 const services = [{
-        title: "Backend Development",
-        description: "Designing and implementing scalable backend services using Java, Spring Boot, and related technologies",
+        title: "Statistical Analysis",
+        description: "Providing comprehensive statistical analysis and modeling services using R and Python for various industries",
     },
     {
-        title: "System Architecture",
-        description: "Creating robust system architectures for enterprise applications with focus on scalability and maintainability",
+        title: "Protocol Development",
+        description: "Designing and developing statistical analysis protocols for research studies",
     },
     {
-        title: "Database Design",
+        title: "Database Architecture",
         description: "Designing efficient database schemas and implementing data access layers with various SQL and NoSQL databases",
     },
+    {
+        title: "Software Development",
+        description: "Building robust and scalable software solutions using best practices in software engineering",
+    },,
 ];
 
 const dataportfolio = [
@@ -133,13 +138,13 @@ const dataportfolio = [
 ];
 
 const youtubeChannel = {
-    url: "http://www.youtube.com/@TechWithM",
+    url: "http://www.youtube.com/",
     description: "Subscribe to my YouTube channel for in-depth tutorials on Spring, Java, and enterprise software development."
 };
 
 const contactConfig = {
-    YOUR_EMAIL: "monir.sust14@gmail.com",
-    YOUR_FONE: "+8801856529339",
+    YOUR_EMAIL: "michaelmpelias@gmail.com",
+    YOUR_FONE: "+306970222633",
     description: "Feel free to contact me for any professional inquiries or collaboration opportunities. I'm particularly interested in challenging projects involving distributed systems and enterprise solutions.",
     YOUR_SERVICE_ID: "service_2mmlxwc",
     YOUR_TEMPLATE_ID: "template_ksfzga8",
@@ -147,9 +152,8 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com/tech-with-m",
-    linkedin: "https://linkedin.com/in/techwithm",
-    gitlab: "https://mzmn.gitlab.io",
+    github: "https://github.com/MichailBelias/",
+    linkedin: "https://linkedin.com/in/techwithm"
 };
 
 export {
