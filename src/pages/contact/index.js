@@ -69,8 +69,26 @@ export const ContactUs = () => {
       <Container>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>{meta.title} | Contact</title>
-          <meta name="description" content={meta.description} />
+          <title> Contact | {meta.title}</title>
+          <meta name="description" content="Get in touch with Md. Moniruzzaman, Senior Software Engineer specializing in Java and Spring Boot. Contact for consulting, project opportunities, or technical discussions." />
+          {meta.keywords && <meta name="keywords" content={`${meta.keywords}, contact, hire, consulting, freelance`} />}
+          {meta.canonical && <link rel="canonical" href={`${meta.canonical}/contact`} />}
+          <script type="application/ld+json">
+            {`
+              {
+                "@context": "https://schema.org",
+                "@type": "ContactPage",
+                "name": "Contact Md. Moniruzzaman",
+                "description": "Contact Md. Moniruzzaman for professional software engineering services, consulting, or project inquiries",
+                "mainEntity": {
+                  "@type": "Person",
+                  "name": "Md. Moniruzzaman",
+                  "email": "${contactConfig.YOUR_EMAIL}",
+                  "url": "${meta.canonical}"
+                }
+              }
+            `}
+          </script>
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">

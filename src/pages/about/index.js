@@ -18,6 +18,63 @@ export const About = () => {
           <meta charSet="utf-8" />
           <title> About | {meta.title}</title>
           <meta name="description" content={meta.description} />
+          {meta.keywords && <meta name="keywords" content={meta.keywords} />}
+          {meta.canonical && <link rel="canonical" href={`${meta.canonical}/about`} />}
+          <script type="application/ld+json">
+            {`
+              {
+                "@context": "https://schema.org",
+                "@type": "ProfilePage",
+                "mainEntity": {
+                  "@type": "Person",
+                  "name": "Md. Moniruzzaman",
+                  "description": "${dataabout.aboutme}",
+                  "workExperience": [
+                    {
+                      "@type": "WorkExperience",
+                      "jobTitle": "Senior Software Engineer",
+                      "worksFor": {
+                        "@type": "Organization",
+                        "name": "Red Dot Digital Ltd."
+                      },
+                      "startDate": "2023"
+                    },
+                    {
+                      "@type": "WorkExperience",
+                      "jobTitle": "Senior Software Engineer",
+                      "worksFor": {
+                        "@type": "Organization",
+                        "name": "Reve Systems"
+                      },
+                      "startDate": "2022",
+                      "endDate": "2023"
+                    },
+                    {
+                      "@type": "WorkExperience",
+                      "jobTitle": "Software Engineer",
+                      "worksFor": {
+                        "@type": "Organization",
+                        "name": "Commlink Infotech Ltd."
+                      },
+                      "startDate": "2021",
+                      "endDate": "2022"
+                    },
+                    {
+                      "@type": "WorkExperience",
+                      "jobTitle": "Software Engineer",
+                      "worksFor": {
+                        "@type": "Organization",
+                        "name": "G Technologies"
+                      },
+                      "startDate": "2019",
+                      "endDate": "2021"
+                    }
+                  ],
+                  "knowsAbout": ["Java", "Spring Boot", "Backend Development", "System Architecture", "Database Design", "Cloud Native", "DevOps"]
+                }
+              }
+            `}
+          </script>
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">

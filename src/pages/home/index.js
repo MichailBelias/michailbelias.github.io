@@ -13,6 +13,29 @@ export const Home = () => {
           <meta charSet="utf-8" />
           <title> {meta.title}</title>
           <meta name="description" content={meta.description} />
+          {meta.keywords && <meta name="keywords" content={meta.keywords} />}
+          {meta.canonical && <link rel="canonical" href={meta.canonical} />}
+          <script type="application/ld+json">
+            {`
+              {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Md. Moniruzzaman",
+                "jobTitle": "Senior Software Engineer",
+                "worksFor": {
+                  "@type": "Organization",
+                  "name": "Red Dot Digital Ltd."
+                },
+                "url": "https://tech-with-m.github.io",
+                "knowsAbout": ["Java", "Spring Boot", "Backend Development", "System Architecture", "Database Design", "Cloud Native", "DevOps"],
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Dhaka",
+                  "addressCountry": "Bangladesh"
+                }
+              }
+            `}
+          </script>
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
           <div

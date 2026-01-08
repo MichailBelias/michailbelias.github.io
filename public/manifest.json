@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Monir",
+  "name": "Md. Moniruzzaman - Senior Software Engineer",
   "icons": [
     {
       "src": "favicon.ico",
@@ -21,5 +21,6 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#0c0c0c",
+  "description": "Senior Software Engineer specializing in Java and Spring-based enterprise solutions"
 }
