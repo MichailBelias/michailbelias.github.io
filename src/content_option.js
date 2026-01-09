@@ -1,9 +1,9 @@
 const logotext = "Michail Belias";
 const meta = {
-    title: "Michail Belias | Statistical Programmer & Data Scientist",
-    description: "Senior Software Engineer with 5+ years of experience in Java, Spring Boot, and enterprise solutions. Specialist in scalable architecture, database design, and cloud-native applications. Currently at Red Dot Digital Ltd in Dhaka, Bangladesh.",
-    keywords: "Java Developer, Spring Boot, Software Engineer, Enterprise Solutions, Backend Development, Cloud Native, System Architecture, Dhaka, Bangladesh",
-    author: "M. Belias",
+    title: "Michail Belias | Data Scientist & Statistical Programmer",
+    description: "Data Scientist specializing in statistical programming, machine learning, time series forecasting, and data-driven decision making.",
+    keywords: "Data Scientist, Statistical Programmer, R, Python, SQL, Machine Learning, Time Series, Forecasting, Data Visualization",
+    author: "Michail Belias",
     canonical: "https://michailbelias.github.io",
 };
 
