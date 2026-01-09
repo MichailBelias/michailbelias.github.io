@@ -177,3 +177,242 @@ code {
 [data-era="80s"] .ac_btn .three {
     background-color: rgba(255, 83, 217, 0.5);
 }
+
+[data-era="modern"] body {
+    font-family: 'Space Grotesk', 'Raleway', sans-serif;
+    background-color: var(--bg-color);
+    background-image:
+        radial-gradient(circle at 20% 20%, rgba(80, 255, 234, 0.12), transparent 30%),
+        radial-gradient(circle at 80% 10%, rgba(255, 120, 255, 0.12), transparent 28%),
+        linear-gradient(135deg, rgba(22, 26, 46, 0.85), rgba(9, 10, 22, 0.9)),
+        linear-gradient(90deg, rgba(80, 255, 234, 0.05) 1px, transparent 1px),
+        linear-gradient(0deg, rgba(255, 120, 255, 0.05) 1px, transparent 1px);
+    background-size: auto, auto, 100% 100%, 140px 140px, 140px 140px;
+    color: var(--text-color);
+    text-shadow: 0 0 12px rgba(80, 255, 234, 0.15);
+}
+
+[data-era="modern"] .nav_ac {
+    backdrop-filter: blur(10px);
+    background: linear-gradient(135deg, rgba(20, 24, 44, 0.85), rgba(5, 7, 16, 0.9));
+    border: 1px solid rgba(80, 255, 234, 0.4);
+    box-shadow: 0 0 16px rgba(80, 255, 234, 0.25);
+}
+
+[data-era="modern"] .menu_footer {
+    background: linear-gradient(135deg, rgba(20, 24, 44, 0.8), rgba(5, 7, 16, 0.9));
+    border-top: 1px solid rgba(80, 255, 234, 0.3);
+}
+
+[data-era="90s"] {
+    --bg-color: #e3e7f1;
+    --primary-color: #d6deeb;
+    --secondary-color: #0f3057;
+    --text-color: #0c1f33;
+    --text-color-2: #0f3057;
+    --text-color-3: #ff6f00;
+    --overlay-color: rgba(12, 31, 51, 0.12);
+}
+
+[data-era="90s"] body {
+    font-family: 'Trebuchet MS', 'Lucida Sans', 'Lucida Grande', Arial, sans-serif;
+    background-color: var(--bg-color);
+    background-image:
+        linear-gradient(90deg, rgba(12, 31, 51, 0.04) 1px, transparent 1px),
+        linear-gradient(180deg, rgba(12, 31, 51, 0.04) 1px, transparent 1px);
+    background-size: 12px 12px, 12px 12px;
+    color: var(--text-color);
+    text-shadow: none;
+    border-left: 10px solid #b7c5d9;
+    border-right: 10px solid #b7c5d9;
+}
+
+[data-era="90s"] h1,
+[data-era="90s"] h2,
+[data-era="90s"] h3,
+[data-era="90s"] h4,
+[data-era="90s"] h5,
+[data-era="90s"] h6 {
+    font-family: 'Trebuchet MS', 'Lucida Sans', 'Lucida Grande', Arial, sans-serif;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+[data-era="90s"] .nav_ac {
+    background: linear-gradient(180deg, #f4f7fb, #d6deeb);
+    border: 1px solid #0f3057;
+    color: #0f3057;
+    box-shadow: 0 2px 0 #0f3057;
+}
+
+[data-era="90s"] .menu_footer {
+    background: linear-gradient(180deg, #f4f7fb, #d6deeb);
+    border-top: 1px solid #0f3057;
+}
+
+[data-era="90s"] .intro_sec .h_bg-image {
+    filter: saturate(1.05) contrast(1.05);
+    box-shadow: inset 0 0 0 2px rgba(15, 48, 87, 0.1);
+}
+
+[data-era="90s"] .ac_btn {
+    border-color: #0f3057;
+    color: #0f3057;
+    background: linear-gradient(180deg, #f4f7fb, #d6deeb);
+    box-shadow: 0 2px 0 #0f3057;
+}
+
+[data-era="90s"] .ac_btn .one {
+    background-color: #e3e7f1;
+}
+
+[data-era="90s"] .ac_btn .two {
+    background-color: #0f3057;
+}
+
+[data-era="90s"] .ac_btn .three {
+    background-color: #ffb347;
+}
+
+[data-era="00s"] {
+    --bg-color: #f1f4fb;
+    --primary-color: #dfe8f5;
+    --secondary-color: #1d4ed8;
+    --text-color: #0b1f33;
+    --text-color-2: #123c7b;
+    --text-color-3: #ff8400;
+    --overlay-color: rgba(11, 31, 51, 0.08);
+}
+
+[data-era="00s"] body {
+    font-family: 'Tahoma', 'Verdana', 'Segoe UI', sans-serif;
+    background-color: var(--bg-color);
+    background-image:
+        radial-gradient(circle at 20% 20%, rgba(61, 109, 216, 0.1), transparent 26%),
+        radial-gradient(circle at 80% 0%, rgba(255, 132, 0, 0.08), transparent 30%),
+        linear-gradient(180deg, rgba(223, 232, 245, 0.8), rgba(241, 244, 251, 0.95)),
+        linear-gradient(90deg, rgba(18, 60, 123, 0.05) 1px, transparent 1px),
+        linear-gradient(0deg, rgba(18, 60, 123, 0.05) 1px, transparent 1px);
+    background-size: auto, auto, 100% 100%, 12px 12px, 12px 12px;
+    color: var(--text-color);
+    text-shadow: none;
+    border-left: 10px solid #c9d7ec;
+    border-right: 10px solid #c9d7ec;
+}
+
+[data-era="00s"] h1,
+[data-era="00s"] h2,
+[data-era="00s"] h3,
+[data-era="00s"] h4,
+[data-era="00s"] h5,
+[data-era="00s"] h6 {
+    font-family: 'Tahoma', 'Verdana', 'Segoe UI', sans-serif;
+    letter-spacing: 0.01em;
+    color: var(--text-color);
+}
+
+[data-era="00s"] .nav_ac {
+    background: linear-gradient(180deg, #f9fcff, #dfe9f7);
+    border: 1px solid #3a6fd8;
+    color: #123c7b;
+    box-shadow: inset 0 1px 0 #ffffff, 0 2px 0 #123c7b;
+}
+
+[data-era="00s"] .menu_footer {
+    background: linear-gradient(180deg, #f9fcff, #dfe9f7);
+    border-top: 1px solid #3a6fd8;
+}
+
+[data-era="00s"] .intro_sec .h_bg-image {
+    filter: saturate(1.05) contrast(1.05);
+    box-shadow: inset 0 0 0 2px rgba(58, 111, 216, 0.15);
+}
+
+[data-era="00s"] .ac_btn {
+    border-color: #3a6fd8;
+    color: #123c7b;
+    background: linear-gradient(180deg, #f9fcff, #dfe9f7);
+    box-shadow: 0 2px 0 #123c7b;
+}
+
+[data-era="00s"] .ac_btn .one {
+    background-color: #f1f4fb;
+}
+
+[data-era="00s"] .ac_btn .two {
+    background-color: #3a6fd8;
+}
+
+[data-era="00s"] .ac_btn .three {
+    background-color: #ffcc80;
+}
+
+[data-era="10s"] {
+    --bg-color: #f7f9fb;
+    --primary-color: #eef2f7;
+    --secondary-color: #00a1d6;
+    --text-color: #0f172a;
+    --text-color-2: #0b1f33;
+    --text-color-3: #ff7a18;
+    --overlay-color: rgba(11, 31, 51, 0.08);
+}
+
+[data-era="10s"] body {
+    font-family: 'Montserrat', 'Raleway', sans-serif;
+    background-color: var(--bg-color);
+    background-image:
+        linear-gradient(90deg, rgba(0, 161, 214, 0.04) 1px, transparent 1px),
+        linear-gradient(0deg, rgba(255, 122, 24, 0.04) 1px, transparent 1px);
+    background-size: 16px 16px, 16px 16px;
+    color: var(--text-color);
+    text-shadow: none;
+    border-left: 10px solid #d7dfe9;
+    border-right: 10px solid #d7dfe9;
+}
+
+[data-era="10s"] h1,
+[data-era="10s"] h2,
+[data-era="10s"] h3,
+[data-era="10s"] h4,
+[data-era="10s"] h5,
+[data-era="10s"] h6 {
+    font-family: 'Montserrat', 'Raleway', sans-serif;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+[data-era="10s"] .nav_ac {
+    background: linear-gradient(180deg, #ffffff, #eef2f7);
+    border: 1px solid #00a1d6;
+    color: #0b1f33;
+    box-shadow: 0 2px 0 #0b1f33;
+}
+
+[data-era="10s"] .menu_footer {
+    background: linear-gradient(180deg, #ffffff, #eef2f7);
+    border-top: 1px solid #00a1d6;
+}
+
+[data-era="10s"] .intro_sec .h_bg-image {
+    filter: saturate(1.05) contrast(1.05);
+    box-shadow: inset 0 0 0 2px rgba(0, 161, 214, 0.12);
+}
+
+[data-era="10s"] .ac_btn {
+    border-color: #00a1d6;
+    color: #0b1f33;
+    background: linear-gradient(180deg, #ffffff, #eef2f7);
+    box-shadow: 0 2px 0 #0b1f33;
+}
+
+[data-era="10s"] .ac_btn .one {
+    background-color: #f7f9fb;
+}
+
+[data-era="10s"] .ac_btn .two {
+    background-color: #00a1d6;
+}
+
+[data-era="10s"] .ac_btn .three {
+    background-color: #ffba7a;
+}
