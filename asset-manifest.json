@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.9b5eb440.css",
-    "main.js": "/static/js/main.31da2b4b.js",
+    "main.css": "/static/css/main.df9e2e2a.css",
+    "main.js": "/static/js/main.64695905.js",
+    "static/media/mydesk_modern_ai.png": "/static/media/mydesk_modern_ai.0a6d5e6d7c3296b0e417.png",
     "static/media/mydesk_80s_lab.png": "/static/media/mydesk_80s_lab.771b22e8738c08b7262e.png",
     "static/media/mydesk_90s_desktop.png": "/static/media/mydesk_90s_desktop.f5990c4741a6fccc5680.png",
-    "static/media/mydesk_00s_web.png": "/static/media/mydesk_00s_web.b099f123eb03d72aa2fa.png",
-    "static/media/mydesk_10s_flat.png": "/static/media/mydesk_10s_flat.b099f123eb03d72aa2fa.png",
+    "static/media/mydesk_00s_web.png": "/static/media/mydesk_00s_web.4ef19e4db0120971fdf9.png",
+    "static/media/mydesk_10s_flat.png": "/static/media/mydesk_10s_flat.8b72bc6434f1d1ffdd32.png",
     "static/media/mydesk.png": "/static/media/mydesk.20199c5aeeca2294e948.png",
-    "static/media/mydesk_modern_ai.png": "/static/media/mydesk_modern_ai.20199c5aeeca2294e948.png",
     "static/media/report-thumb.png": "/static/media/report-thumb.01ea1f685610f7c1a7bc.png",
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.9b5eb440.css",
-    "static/js/main.31da2b4b.js"
+    "static/css/main.df9e2e2a.css",
+    "static/js/main.64695905.js"
   ]
 }
