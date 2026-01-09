@@ -1,38 +1,42 @@
-### Description
+# Michail Belias — Time-Travel Portfolio
 
-A simple portfolio template for developer/designers built with React. 
+Single-page React portfolio with era-based themes (80s → AI era), GitHub Pages deployment, and per-era hero imagery.
 
-### [live preview](https://ubaimutl.github.io/react-portfolio/)
+## Overview
+- Era toggle cycles five eras: 80s “Unix and S Language Era”, 90s “The Web, R and SQL Era”, 00s “The Big Data Era”, 10s “Machine Learning & Python Era”, and “The AI Era”.
+- Each era has its own colors/typography and optional hero background image (`src/assets/images/mydesk_*.png`).
+- Metadata for link previews is customized for Michail Belias (Open Graph/Twitter tags + Helmet meta).
+- Theme toggle is disabled; modern AI era locks to dark.
+- Built with React 18, react-router, react-helmet-async, and react-icons.
 
-[![react portfoiio](src/assets/images/react%20portfolio%20gif.gif)](https://ubaimutl.github.io/react-portfolio/)
+## Getting Started
+```bash
+yarn install
+yarn start
+```
 
-### Features
+Content lives in `src/content_option.js`. Era styles and backgrounds: `src/index.css` and `src/pages/home/style.css`.
 
-- Fully Responsive
-- Multi-Page Layout
-- Contact Form With EmailJs
-- React-Bootstrap
-- Edit Content From One Place
+## Era Background Images
+Drop your images at these paths (PNG or JPG):
+- `src/assets/images/mydesk_modern_ai.png`
+- `src/assets/images/mydesk_80s_lab.png`
+- `src/assets/images/mydesk_90s_desktop.png`
+- `src/assets/images/mydesk_00s_web.png`
+- `src/assets/images/mydesk_10s_flat.png`
 
-### Setup
+## Deploy (GitHub Pages)
+```bash
+yarn deploy        # builds and publishes to gh-pages branch
+```
+Ensure repo Pages source: branch `gh-pages`, folder `/`. `package.json` has `homepage` set to `https://michailbelias.github.io`.
 
-Get the code
+## SEO / Preview Meta
+- Global head tags: `public/index.html` (author, OG/Twitter title/description/url/image).
+- Per-page meta: `src/content_option.js` (title/description/keywords/canonical via Helmet).
 
-<pre>git clone https://github.com/ubaimutl/react-portfolio.git</pre>
- 
-Install required dependencies
+## Scripts
+- `yarn start` — dev server
+- `yarn build` — production build
+- `yarn deploy` — build + push to `gh-pages`
 
-<pre>yarn install</pre>
-
-
-Start the server
-
-<pre>yarn start</pre>
-
-### More
-
-Modify pages content in  `src/content_option.js`.
-
-### Thanks
-
-If you like this portfolio template don't forget give it a ⭐ 
