@@ -13,3 +13,7 @@
     width: 2em;
     height: 2em;
 }
+
+[data-era="modern"] .theme_toggler {
+    display: none !important;
+}
