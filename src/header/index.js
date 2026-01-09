@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./style.css";
 import { VscGrabber, VscClose } from "react-icons/vsc";
+import { FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { logotext ,socialprofils } from "../content_option";
 import Themetoggle from "../components/themetoggle";
@@ -20,15 +21,15 @@ const Headermain = () => {
         <div className="d-flex align-items-center justify-content-between">
           <div className="header__left d-flex flex-column align-items-start">
             <div className="header__controls d-flex align-items-center">
-              <Eratoggle />
-              <Themetoggle />
               <button className="menu__button nav_ac" onClick={handleToggle}>
                 {!isActive ? <VscClose /> : <VscGrabber />}
               </button>
+              <Eratoggle />
+              <Themetoggle />
+              <Link className="navbar-brand nav_ac" to="/">
+                {logotext}
+              </Link>
             </div>
-            <Link className="navbar-brand nav_ac" to="/">
-              {logotext}
-            </Link>
           </div>
         </div>
 
@@ -57,7 +58,10 @@ const Headermain = () => {
             <div className="d-flex">
             <a href={socialprofils.facebook}>Facebook</a>
             <a href={socialprofils.github}>Github</a>
-            <a href={socialprofils.twitter}>Twitter</a>
+            <a href={socialprofils.twitter} aria-label="Twitter / X">
+              <FaTwitter style={{ marginRight: 6 }} />
+              <span style={{ fontWeight: 700, letterSpacing: "0.06em" }}>X</span>
+            </a>
             </div>
             <p className="copyright m-0">copyright __ {logotext}</p>
           </div>
