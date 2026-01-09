@@ -4,6 +4,7 @@ import { VscGrabber, VscClose } from "react-icons/vsc";
 import { Link } from "react-router-dom";
 import { logotext ,socialprofils } from "../content_option";
 import Themetoggle from "../components/themetoggle";
+import Eratoggle from "../components/eratoggle";
 
 const Headermain = () => {
   const [isActive, setActive] = useState("false");
@@ -19,6 +20,7 @@ const Headermain = () => {
         <div className="d-flex align-items-center justify-content-between">
           <div className="header__left d-flex flex-column align-items-start">
             <div className="header__controls d-flex align-items-center">
+              <Eratoggle />
               <Themetoggle />
               <button className="menu__button nav_ac" onClick={handleToggle}>
                 {!isActive ? <VscClose /> : <VscGrabber />}

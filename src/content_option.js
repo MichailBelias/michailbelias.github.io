@@ -1,4 +1,4 @@
-const logotext = "Belias";
+const logotext = "Michail Belias";
 const meta = {
     title: "Michail Belias | Statistical Programmer & Data Scientist",
     description: "Senior Software Engineer with 5+ years of experience in Java, Spring Boot, and enterprise solutions. Specialist in scalable architecture, database design, and cloud-native applications. Currently at Red Dot Digital Ltd in Dhaka, Bangladesh.",
