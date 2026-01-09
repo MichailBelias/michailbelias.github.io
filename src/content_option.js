@@ -20,7 +20,7 @@ const introdata = {
 
 const dataabout = {
     title: "A bit about myself",
-    aboutme: "I am a Data Scientist with over 5 years of experience in statistical programming and data analysis. I specialize in R and Python, and have a strong background in machine learning, deep learning, and natural language processing. I have worked on various projects involving time series analysis, computer vision, and big data. I am passionate about leveraging data to drive insights and make informed decisions. In addition to my technical skills, I am also an avid content creator, sharing my knowledge through blogs and tutorials.",
+    aboutme: "I am a Data Scientist with over 15 years of experience in statistical programming and data analysis. I specialize in R and Python, and have a strong background in machine learning, deep learning, and natural language processing. I have worked on various projects involving time series analysis, computer vision, and big data. I am passionate about leveraging data to drive insights and make informed decisions. In addition to my technical skills, I am also an avid content creator, sharing my knowledge through blogs and tutorials.",
 };
 
 const worktimeline = [{
@@ -30,7 +30,7 @@ const worktimeline = [{
     },
     {
         jobtitle: "MSc in Biostatistics and Health Data Science",
-        where: "Natioanal and Kapodistrian University of Athens",
+        where: "National and Kapodistrian University of Athens",
         date: "2013-2015",
     },
     {
@@ -48,7 +48,7 @@ const worktimeline = [{
 
 const skills = [{
         name: "R programming",
-        value: 95,
+        value: 100,
     },
     {
         name: "SQL",
@@ -179,6 +179,7 @@ const socialprofils = {
     facebook: "https://facebook.com/",
     github: "https://github.com/MichailBelias/",
     linkedin: "https://linkedin.com/in/michail-belias/",
+    twitter: "https://twitter.com/michailbelias",
 };
 
 export {

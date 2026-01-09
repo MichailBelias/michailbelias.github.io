@@ -98,6 +98,36 @@ section {
     position: relative;
 }
 
+[data-era="80s"] .intro_sec .h_bg-image {
+    background-image: url('../../assets/images/mydesk_80s_lab.png') !important;
+    background-size: cover;
+    background-position: center;
+}
+
+[data-era="90s"] .intro_sec .h_bg-image {
+    background-image: url('../../assets/images/mydesk_90s_desktop.png') !important;
+    background-size: cover;
+    background-position: center;
+}
+
+[data-era="00s"] .intro_sec .h_bg-image {
+    background-image: url('../../assets/images/mydesk_00s_web.png') !important;
+    background-size: cover;
+    background-position: center;
+}
+
+[data-era="10s"] .intro_sec .h_bg-image {
+    background-image: url('../../assets/images/mydesk_10s_flat.png') !important;
+    background-size: cover;
+    background-position: center;
+}
+
+[data-era="modern"] .intro_sec .h_bg-image {
+    background-image: url('../../assets/images/mydesk_modern_ai.png') !important;
+    background-size: cover;
+    background-position: center;
+}
+
 .ac_btn {
     padding: 4px 19px;
     color: var(--secondary-color);
